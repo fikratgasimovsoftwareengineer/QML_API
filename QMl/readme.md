@@ -25,7 +25,6 @@ In order to run application follow these steps:
 		$ curl http://127.0.0.1:5000/test (this is get request)
 		$ alternatively, use postman of GET functionality 
 
-<img src="/home/fikrat/QML_API/QMl/result.png" width="128"/>
 ```
-
+<img src="/home/fikrat/QML_API/QMl/result.png" width="128"/>
 Thank you!
