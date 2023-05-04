@@ -1,0 +1,83 @@
+{
+    "classes": [
+        {
+            "className": "AppWrapper",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "fetchPost",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "removeLast",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "joke",
+                    "notify": "jokeFetched",
+                    "read": "getJoke",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "jokeId",
+                    "notify": "jokeIdChanged",
+                    "read": "getJokeId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "AppWrapper",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "jokeFetched",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "jokeIdChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "dataReadRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "dataReadFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "appwrapper.h",
+    "outputRevision": 68
+}

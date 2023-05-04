@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/restAPIQML">
+    <file alias="qmldir">/home/fikrat/QMl/build-restAPIQML-Desktop_Qt_6_2_4_GCC_64bit-Debug/restAPIQML/qmldir</file>
+  </qresource>
+</RCC>
+

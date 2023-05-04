@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a163e8f8bb24b9247d40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jsonData",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-00681d3a9405d03c3d48.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-b0250dc209190dffba5e.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData-Debug-6f4478b923fc65d7bee7.json",
+					"name" : "appjsonData",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_autogen-Debug-2b2a429ea06dbb8c7962.json",
+					"name" : "appjsonData_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_autogen_timestamp_deps-Debug-621ccc9b4415552aba18.json",
+					"name" : "appjsonData_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_other_files-Debug-3ec202ef7b381a9038d4.json",
+					"name" : "appjsonData_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_qmllint-Debug-f02e91162c791087bda1.json",
+					"name" : "appjsonData_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_qmltyperegistration-Debug-cd2a4ea5800e9086e7f9.json",
+					"name" : "appjsonData_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appjsonData_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appjsonData_tooling-Debug-39831c1a657ea8ca4385.json",
+					"name" : "appjsonData_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug",
+		"source" : "/home/fikrat/QMl/jsonData"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

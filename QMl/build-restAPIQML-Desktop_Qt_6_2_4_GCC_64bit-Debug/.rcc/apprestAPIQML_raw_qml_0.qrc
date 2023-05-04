@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/restAPIQML/">
+    <file alias="Main.qml">/home/fikrat/QMl/restAPIQML/Main.qml</file>
+  </qresource>
+</RCC>
+

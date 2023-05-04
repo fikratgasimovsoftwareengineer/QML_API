@@ -1,0 +1,5 @@
+module restAPIQML
+typeinfo apprestAPIQML.qmltypes
+prefer :/restAPIQML/
+Main 1.0 Main.qml
+

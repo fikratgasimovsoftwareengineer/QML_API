@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/jsonData">
+    <file alias="qmldir">/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/jsonData/qmldir</file>
+  </qresource>
+</RCC>
+

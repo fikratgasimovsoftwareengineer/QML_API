@@ -1,0 +1,15 @@
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_qmltyperegistration.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/all_qmltyperegistrations.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_other_files.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_qmllint.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/all_qmllint.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_tooling.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_autogen_timestamp_deps.dir
+/home/fikrat/QMl/build-jsonData-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/appjsonData_autogen.dir

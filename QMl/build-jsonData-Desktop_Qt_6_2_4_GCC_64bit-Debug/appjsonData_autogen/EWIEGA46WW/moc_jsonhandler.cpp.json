@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "jsonHandler",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "writeJsonFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "readJsonFile",
+                    "returnType": "QJsonObject"
+                },
+                {
+                    "access": "public",
+                    "name": "sendJsonFile",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "jsonHandler",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "jsonhandler.h",
+    "outputRevision": 68
+}

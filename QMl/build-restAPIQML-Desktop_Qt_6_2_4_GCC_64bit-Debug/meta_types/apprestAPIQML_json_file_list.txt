@@ -1,0 +1,1 @@
+/home/fikrat/QMl/build-restAPIQML-Desktop_Qt_6_2_4_GCC_64bit-Debug/apprestAPIQML_autogen/include/../EWIEGA46WW/moc_appwrapper.cpp.json
