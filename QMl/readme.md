@@ -26,6 +26,6 @@ In order to run application follow these steps:
 		$ alternatively, use postman of GET functionality 
 
 ```
+<img src="result.png" width="500"/>
 
-![QML&FLASK](result.jpg)
 Thank you!
