@@ -27,4 +27,5 @@ In order to run application follow these steps:
 
 ```
 <img src="/home/fikrat/QML_API/QMl/result.png" width="128"/>
+<img src="/home/fikrat/QML_API/QMl/result.png" alt="My cool logo"/>
 Thank you!
