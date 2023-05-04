@@ -26,6 +26,6 @@ In order to run application follow these steps:
 		$ alternatively, use postman of GET functionality 
 
 ```
-<img src="/home/fikrat/QML_API/QMl/result.png" width="128"/>
-<img src="/home/fikrat/QML_API/QMl/result.png" alt="My cool logo"/>
+
+![QML&FLASK](result.jpg)
 Thank you!
