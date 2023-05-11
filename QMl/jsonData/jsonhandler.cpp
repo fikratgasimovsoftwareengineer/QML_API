@@ -98,10 +98,12 @@ QVariantList jsonHandler::parseJsonFile()
                 item["Name"] = innerKey;
                 item["Value"] = innerJson[innerKey].toVariant().toString();
 
+                //apend Keys compoents to variant list
                 jsonVariant.append(item);
+                //append values components to variant list
                 values.append(item);
 
-                qDebug() << "JSON VARIANT" << jsonVariant;
+
             }
             outerItem["Values"] = values;
 

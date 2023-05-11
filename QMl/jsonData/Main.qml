@@ -70,38 +70,23 @@ Window {
         ScrollView{
             id:mainWindowID
 
-            Row{
+            Column{
                 id:columns
                 spacing:10
                 Repeater{
                     model: jsonDataParse
-                    delegate: Column{
+                    delegate: Row{
                         spacing: 10
                         Text {
-
                             text: modelData.Name
-                            color: "yellow"
+                            color: "#03b6fc"
                             font.pixelSize: 20
                         }
-                        Column{
-                            Repeater{
-                                model:modelData.Values
-                                delegate:Row{
-                                    spacing:10
-                                    Text {
-                                        text: modelData.Name + ":"
-                                        color: "red"
-                                        font.pixelSize: 20
-                                    }
-                                    Text{
-                                        text: modelData.Value
+                        Text{
+                            text: modelData.Value
 
-                                        color: "red"
-                                        font.pixelSize: 20
-                                    }
-                                }
-
-                            }
+                            color: "red"
+                            font.pixelSize: 20
                         }
 
                     }
