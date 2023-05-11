@@ -1,14 +1,10 @@
 {
     "Fikrat Details": {
         "Age": 27,
-        "Job": "Developer",
-        "Name": "Fikrat",
-        "Surname": "Gasimov"
-    },
-    "Hikmat Details": {
-        "Age": 27,
         "Job": "CyberSecurity",
         "Name": "Hikmat",
         "Surname": "Gasimov"
+    },
+    "Hikmat Details": {
     }
 }

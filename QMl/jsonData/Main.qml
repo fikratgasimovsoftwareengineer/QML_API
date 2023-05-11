@@ -2,7 +2,9 @@ import QtQuick
 import QtQuick.Window
 import com.example 1.0
 import QtQuick.Controls 2.12
+
 Window {
+    id:mainWindow
     width: 640
     height: 480
     visible: true
@@ -21,6 +23,13 @@ Window {
         id: jsonHandler
     }
 
+    property var jsonDataParse: []
+
+    function updateJsonData(){
+        jsonDataParse = jsonHandler.parseJsonFile()
+    }
+
+
     Column {
         anchors.centerIn: parent
         spacing: 10
@@ -35,9 +44,18 @@ Window {
         Button {
             text: "Read JSON"
             onClicked: {
-
                 var jsonData = jsonHandler.readJsonFile();
                 console.log("JSON DATA", JSON.stringify(jsonData))
+
+
+            }
+        }
+        Button {
+            text: "Display JSON"
+            onClicked: {
+                updateJsonData()
+                console.log("JSON PARSE", JSON.stringify(jsonDataParse))
+
 
             }
         }
@@ -49,6 +67,50 @@ Window {
                 jsonHandler.sendJsonFile();
             }
         }
+        ScrollView{
+            id:mainWindowID
+
+            Row{
+                id:columns
+                spacing:10
+                Repeater{
+                    model: jsonDataParse
+                    delegate: Column{
+                        spacing: 10
+                        Text {
+
+                            text: modelData.Name
+                            color: "yellow"
+                            font.pixelSize: 20
+                        }
+                        Column{
+                            Repeater{
+                                model:modelData.Values
+                                delegate:Row{
+                                    spacing:10
+                                    Text {
+                                        text: modelData.Name + ":"
+                                        color: "red"
+                                        font.pixelSize: 20
+                                    }
+                                    Text{
+                                        text: modelData.Value
+
+                                        color: "red"
+                                        font.pixelSize: 20
+                                    }
+                                }
+
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
     }
 
 

@@ -11,6 +11,9 @@
 #include <QByteArray>
 #include <QTextStream>
 #include <QDebug>
+#include <QVariantList>
+#include <QVariant>
+
 class jsonHandler : public QObject
 {
     Q_OBJECT
@@ -24,10 +27,14 @@ public:
     //
     Q_INVOKABLE QJsonObject readJsonFile();
 
+    // parse to qml
+    Q_INVOKABLE QVariantList parseJsonFile();
+
     // qstring filename, qstring endpointurl
     Q_INVOKABLE void sendJsonFile();
 
     const QString url =  "http://127.0.0.1:5000/test";
+
     QString filename;
 
 signals:

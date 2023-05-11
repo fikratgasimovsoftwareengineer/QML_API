@@ -16,8 +16,16 @@ void jsonHandler::writeJsonFile()
     obj1.insert("Age", 27);
     obj1.insert("Job", "Developer");
 
+
+    QJsonObject obj2;
+    obj2.insert("Name", "Hikmat");
+    obj2.insert("Surname", "Gasimov");
+    obj2.insert("Age", 27);
+    obj2.insert("Job", "CyberSecurity");
+
     QJsonObject content;
-    content.insert("obj1", obj1);
+    content.insert("Fikrat Details", obj1);
+    content.insert("Hikmat Details", obj2);
 
     QJsonDocument document;
     document.setObject(content); //set json obj to json doc
@@ -66,9 +74,49 @@ QJsonObject jsonHandler::readJsonFile()
     return result;
 }
 
+QVariantList jsonHandler::parseJsonFile()
+{
+    QJsonObject parse = readJsonFile();
+    QVariantList jsonVariant;
+
+
+
+    for (const QString &key :parse.keys() ){
+        if (parse[key].isObject()){
+             QJsonObject innerJson = parse[key].toObject();
+
+            QVariantMap outerItem;
+
+            outerItem["Name"] = key;
+
+            qDebug() <<  outerItem["Name"] ;
+
+            QVariantList values;
+
+            for (const QString &innerKey :innerJson.keys()){
+                QVariantMap item;
+                item["Name"] = innerKey;
+                item["Value"] = innerJson[innerKey].toVariant().toString();
+
+                jsonVariant.append(item);
+                values.append(item);
+
+                qDebug() << "JSON VARIANT" << jsonVariant;
+            }
+            outerItem["Values"] = values;
+
+            jsonVariant.append(outerItem);
+        }
+    }
+
+    return jsonVariant;
+}
+
+
 void jsonHandler::sendJsonFile()
 {
     QJsonObject data = readJsonFile();
+
     sendData(data);
 }
 
