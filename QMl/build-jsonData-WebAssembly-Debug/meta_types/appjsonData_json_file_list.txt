@@ -1,0 +1,1 @@
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly-Debug/appjsonData_autogen/include/../EWIEGA46WW/moc_jsonhandler.cpp.json

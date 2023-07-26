@@ -1,0 +1,15 @@
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_qmltyperegistration.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/all_qmltyperegistrations.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_other_files.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_qmllint.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/all_qmllint.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_tooling.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/edit_cache.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/rebuild_cache.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/list_install_components.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/install.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/install/local.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/install/strip.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_autogen_timestamp_deps.dir
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/appjsonData_autogen.dir

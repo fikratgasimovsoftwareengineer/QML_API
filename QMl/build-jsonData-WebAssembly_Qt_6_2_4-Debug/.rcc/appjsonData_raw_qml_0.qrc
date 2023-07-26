@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/jsonData/">
+    <file alias="Main.qml">/home/fikrat/QML_API/QMl/jsonData/Main.qml</file>
+  </qresource>
+</RCC>
+

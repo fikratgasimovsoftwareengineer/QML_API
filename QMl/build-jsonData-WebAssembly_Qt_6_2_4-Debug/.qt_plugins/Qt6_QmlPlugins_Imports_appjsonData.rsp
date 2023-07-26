@@ -1,0 +1,10 @@
+-rootPath
+/home/fikrat/QML_API/QMl/jsonData
+-cmake-output
+-importPath
+/home/fikrat/Qt/6.2.4/wasm_32/./qml
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/jsonData
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug
+-qrcFiles
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/.rcc/qmake_jsonData.qrc
+/home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/.rcc/appjsonData_raw_qml_0.qrc

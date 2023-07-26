@@ -1,0 +1,60 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.15.0-76-generic - x86_64
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/fikrat/Qt/Tools/Ninja/ninja cmTC_cb56f && [1/2] Building CXX object CMakeFiles/cmTC_cb56f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cb56f.js
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_GETTIME succeeded with the following output:
+Change Dir: /home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/fikrat/Qt/Tools/Ninja/ninja cmTC_03a3b && [1/2] Building CXX object CMakeFiles/cmTC_03a3b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_03a3b.js
+
+
+Source file was:
+
+#include <unistd.h>
+#include <time.h>
+
+int main(int argc, char *argv[]) {
+    timespec ts; clock_gettime(CLOCK_REALTIME, &ts);
+}
+Performing C++ SOURCE FILE Test HAVE_EGL succeeded with the following output:
+Change Dir: /home/fikrat/QML_API/QMl/build-jsonData-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/fikrat/Qt/Tools/Ninja/ninja cmTC_bfc50 && [1/2] Building CXX object CMakeFiles/cmTC_bfc50.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bfc50.js
+
+
+Source file was:
+
+#include <EGL/egl.h>
+
+int main(int argc, char *argv[]) {
+    EGLint x = 0; EGLDisplay dpy = 0; EGLContext ctx = 0;
+    eglDestroyContext(dpy, ctx);
+}

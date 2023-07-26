@@ -1,0 +1,5 @@
+module jsonData
+typeinfo appjsonData.qmltypes
+prefer :/jsonData/
+Main 1.0 Main.qml
+
