@@ -1,5 +1,7 @@
 ### QT6-QML & FLASH SERVER-CLIENT COMMUNICATION 
 ```
+Used QT versions are 5.15.2 and 6.2.4
+
 Here, i desribe json file creation and filling, with random informations,tecnical components as the followings
 
 1. create Json file, and Fill it with random Information
